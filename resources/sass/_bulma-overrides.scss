@@ -1,0 +1,17 @@
+/**
+ * Any Bulma overrides should be placed in this file
+ * Docs: https://bulma.io/documentation/customize/variables/
+ */
+
+/** Customizable Variables */
+$primary: $blue-primary;
+
+
+
+/** Class Overrides */
+
+// Stops mobile nav menu from pushing down page content when opened
+.navbar-menu.is-active {
+  position: absolute;
+  width: 100%;
+}

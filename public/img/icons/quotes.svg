@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="14.084441mm"
+   height="11.336258mm"
+   viewBox="0 0 14.084441 11.336258"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (33fec40, 2019-01-16)"
+   sodipodi:docname="quotes.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="29.668689"
+     inkscape:cy="1.696029"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="973"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-64.775312,-107.70772)">
+    <path
+       style="line-height:1.25;letter-spacing:0px;word-spacing:0px;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:35.42847443;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 187.50195,397.04297 v 3.26367 h -3.26367 v 0.99609 h 3.26367 v 3.26368 h 0.98438 v -3.26368 H 191.75 v -0.99609 h -3.26367 v -3.26367 z m 10.05469,0 v 3.26367 h -3.26367 v 0.99609 h 3.26367 v 3.26368 h 0.98438 v -3.26368 h 3.26367 v -0.99609 h -3.26367 v -3.26367 z m -33.42773,2.07422 v 0.98437 h 7.51171 v -0.98437 z m 10.05468,0 v 0.98437 h 7.51172 v -0.98437 z m -10.05468,2.39062 v 0.9961 h 7.51171 v -0.9961 z m 10.05468,0 v 0.9961 h 7.51172 v -0.9961 z"
+       transform="scale(0.26458333)"
+       id="flowRoot815"
+       inkscape:connector-curvature="0" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot825"
+       style="line-height:1.25;letter-spacing:0px;word-spacing:0px;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:35.42847443;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion827"><rect
+           id="rect829"
+           width="111.8744"
+           height="42.426407"
+           x="269.71072"
+           y="451.02078" /></flowRegion><flowPara
+         id="flowPara831"></flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.97093964px;line-height:1.25;font-family:'Ume P Mincho S3';-inkscape-font-specification:'Ume P Mincho S3, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:129.8223877;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="-83.669075"
+       y="-82.974068"
+       id="text835"
+       transform="scale(-1)"><tspan
+         sodipodi:role="line"
+         id="tspan833"
+         x="-83.669075"
+         y="-82.974068"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.97093964px;font-family:'Ume P Mincho S3';-inkscape-font-specification:'Ume P Mincho S3, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:129.8223877">&quot;</tspan></text>
+  </g>
+</svg>

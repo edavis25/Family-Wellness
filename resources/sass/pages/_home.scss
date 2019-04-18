@@ -1,0 +1,114 @@
+.home {
+  &__section {
+    margin: $vertical-section-spacing auto;
+    padding: 15px;
+
+    &--gray {
+      padding: $vertical-section-spacing 15px;
+      background-color: rgba(76, 139, 225, 0.1);
+    }
+
+    &--img {
+      width: 100%;
+      background-image: url('../img/hero/girl-smile.jpg');
+      background-size: cover;
+      height: 600px;
+    }
+  }
+  &__heading {
+    color: $blue-secondary;
+    text-align: center;
+  }
+
+  /** HERO */
+  &__hero {
+    position: relative;
+    //background-image: url('../img/hero/kids-bench.jpg');
+    background-image: url('../img/hero/hands.jpg');
+    //background-image: url('../img/hero/kids-circle.jpg');
+    //background-image: url('../img/hero/hand-painting.jpg');
+    //background-image: url('../img/hero/girl-smile.jpg');
+    //background-image: url('../img/hero/holding-hands.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    z-index: 1;
+  }
+  &__hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(76, 139, 225, 0.15);
+    z-index: -1;
+  }
+  &__hero-body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  &__hero-subtitle {
+    font-size: 2.5rem;
+    color: $blue-secondary;
+    margin-top: 20px;
+  }
+
+  &__logo {
+    max-height: 400px;
+  }
+
+  &__icons {
+    margin-top: 30px;
+  }
+  &__icon-wrapper {
+    position: relative;
+    text-align: center;
+  }
+  &__icon {
+    width: 100px;
+  }
+  &__icon-heading {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  &__icon-subheading {
+    font-size: 1rem;
+  }
+
+  &__become {
+    margin-top: 30px;
+  }
+
+  &__img-wrapper {
+    position: relative;
+  }
+  &__img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    //background-color: rgba(76, 139, 225, 0.4);
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  &__mission {
+    margin-top: 30px;
+  }
+
+  &__parallax {
+    background-image: url('../img/hero/kids-circle[par].jpg');
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

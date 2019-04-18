@@ -1,0 +1,20 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+//@import "~font-awesome/scss/font-awesome";
+
+// Variables (declare before Bulma import)
+@import 'variables';
+@import 'layout';
+@import 'helpers';
+@import 'bulma-overrides';
+
+// Bulma import
+@import '~bulma';
+
+// Custom styles
+@import 'organisms/micro-hr';
+@import 'organisms/b-quote';
+@import 'organisms/footer';
+
+@import 'pages/home';
