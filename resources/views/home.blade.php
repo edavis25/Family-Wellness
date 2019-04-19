@@ -48,8 +48,8 @@
                 </div>
                 <div class="column">
                     <figure class="home__icon-wrapper">
-                        <img class="home__icon" src="{{ asset('img/icons/hands-heart.svg') }}" />
-                        <figcaption class="home__icon-heading">Lorem ipsum</figcaption>
+                        <img class="home__icon" src="{{ asset('img/icons/chat-heart[filled].svg') }}" />
+                        <figcaption class="home__icon-heading">Psychiatric Services</figcaption>
                         <figcaption class="home__icon-subheading">
                             In-home psychiatric evaluations, diagnosis, and treatment through therapy &amp; medication management.
                         </figcaption>
