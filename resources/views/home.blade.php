@@ -5,7 +5,7 @@
         <div class="hero-body home__hero-body has-text-centered">
         <div class="home__hero-overlay"></div>
             <div class="container">
-                <img class="home__logo" src="{{ asset('img/logo/logo-lowercase[1000].png') }}" alt="Family Wellness Solutions logo." />
+                <img class="home__logo" src="{{ asset('img/logo/logo[600].png') }}" alt="Family Wellness Solutions logo." />
                 <h1 class="home__hero-subtitle">Foster Placement &amp; Child Services</h1>
             </div>
         </div>

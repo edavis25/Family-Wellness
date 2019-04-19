@@ -1,7 +1,7 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <a class="navbar-item" href="https://bulma.io">
-            <img src="{{ asset('img/logo/lettermark.png') }}" height="250">
+            <img src="{{ asset('img/logo/lettermark[300].png') }}" height="250">
         </a>
         <a class="navbar-burger burger" @click="toggleNav" :class="{ 'is-active': navbarActive }" role="button" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
