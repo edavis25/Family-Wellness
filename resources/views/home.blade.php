@@ -6,7 +6,7 @@
         <div class="home__hero-overlay"></div>
             <div class="container">
                 <img class="home__logo" src="{{ asset('img/logo/logo[600].png') }}" alt="Family Wellness Solutions logo." />
-                <h1 class="home__hero-subtitle">Foster Placement &amp; Child Services</h1>
+                <h1 class="home__hero-subtitle">Foster Care &amp;<br>Behavioral Health Services</h1>
             </div>
         </div>
     </section>
@@ -51,7 +51,7 @@
                         <img class="home__icon" src="{{ asset('img/icons/chat-heart[filled].svg') }}" />
                         <figcaption class="home__icon-heading">Psychiatric Services</figcaption>
                         <figcaption class="home__icon-subheading">
-                            In-home psychiatric evaluations, diagnosis, and treatment through therapy &amp; medication management.
+                            Psychiatric evaluations, diagnosis, and treatment with 24/7 access to a licensed clinician.
                         </figcaption>
                     </figure>
                 </div>
@@ -87,7 +87,7 @@
                 </div>
                 <div class="column is-half">
                     <div class="home__img-wrapper">
-                        <img src="{{ asset('img/hero/holding-hands.jpg') }}" />
+                        <img src="{{ asset('img/holding-hands.jpg') }}" />
                         <div class="home__img-overlay">
                             <blockquote class="b-quote">
                                 <span class="b-quote__icon">{!! file_get_contents(base_path('public/img/icons/quotes.svg')) !!}</span>

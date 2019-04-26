@@ -3,7 +3,7 @@
 $body-bg: #f8fafc;
 
 // Typography
-$font-family-sans-serif: "Nunito", sans-serif;
+$font-family-sans-serif: "Raleway", sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 
@@ -17,3 +17,10 @@ $yellow-accent: #FFE646;
 
 // Spacing
 $vertical-section-spacing: 90px;
+
+// Bulma Breakpoints
+$mobile: 768px; // up to 768
+$tablet: 769px;
+$desktop: 1024px;
+$widescreen: 1216px;
+$fullhd: 1408px;

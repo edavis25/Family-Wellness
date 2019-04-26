@@ -23,16 +23,21 @@
   /** HERO */
   &__hero {
     position: relative;
-    //background-image: url('../img/hero/kids-bench.jpg');
-    background-image: url('../img/hero/hands.jpg');
-    //background-image: url('../img/hero/kids-circle.jpg');
-    //background-image: url('../img/hero/hand-painting.jpg');
-    //background-image: url('../img/hero/girl-smile.jpg');
-    //background-image: url('../img/hero/holding-hands.jpg');
+    background-image: url('../img/hero/hero[mobile].jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 90vh;
+    background-position-x: 30%;
+    height: 80vh;
     z-index: 1;
+
+    @media screen and (min-width: $tablet) {
+      background-image: url('../img/hero/hero.jpg');
+      background-position-x: 45%;
+      height: 90vh;
+    }
+    @media screen and (min-width: $desktop) {
+        background-position-x: 0;
+    }
   }
   &__hero-overlay {
     position: absolute;
@@ -40,7 +45,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(76, 139, 225, 0.15);
+    background-color: rgba(76, 139, 225, 0.5);
     z-index: -1;
   }
   &__hero-body {
@@ -50,13 +55,31 @@
     align-items: center;
   }
   &__hero-subtitle {
-    font-size: 2.5rem;
+    font-size: 1.25em;
     color: $blue-secondary;
     margin-top: 20px;
+    font-family: $font-family-sans-serif;
+    font-weight: 600;
+    line-height: 1.25em;
+
+    @media screen and (min-width: $tablet) {
+      font-size: 1.5em;
+    }
   }
 
   &__logo {
-    max-height: 400px;
+    max-height: 200px;
+
+    @media screen and (min-width: $tablet) {
+      max-height: 250px;
+      margin-top: -30%;
+    }
+    @media screen and (min-width: $desktop) {
+      margin-top: -10%;
+    }
+    @media screen and (min-width: $widescreen) {
+      max-height: 300px;
+    }
   }
 
   &__icons {
