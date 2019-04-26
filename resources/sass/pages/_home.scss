@@ -85,12 +85,33 @@
   &__icons {
     margin-top: 30px;
   }
+  &__icon {
+    @media screen and (max-width: $mobile) {
+      margin: 0 auto;
+      max-width: 350px;
+    }
+
+    // on 2x2 grid give first row extra bottom margin
+    @media screen and (min-width: $tablet) {
+      &:nth-child(-n + 2) {
+        margin-bottom: 25px;
+      }
+    }
+
+    @media screen and (min-width: $fullhd) {
+      margin-bottom: 0;
+    }
+  }
   &__icon-wrapper {
     position: relative;
     text-align: center;
   }
-  &__icon {
-    width: 100px;
+  &__icon-img {
+    width: 65px;
+
+    @media screen and (min-width: $tablet) {
+      width: 100px;
+    }
   }
   &__icon-heading {
     font-size: 1.2rem;

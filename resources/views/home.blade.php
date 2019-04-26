@@ -17,10 +17,10 @@
         <div class="container">
             <h2 class="home__heading title is-2">Services</h2>
             <div class="micro-hr"></div>
-            <div class="home__icons columns">
-                <div class="column">
+            <div class="home__icons columns is-multiline">
+                <div class="home__icon column is-half-tablet is-one-quarter-fullhd">
                     <figure class="home__icon-wrapper">
-                        <img class="home__icon" src="{{ asset('img/icons/hands-icon.svg') }}" />
+                        <img class="home__icon-img" src="{{ asset('img/icons/hands-icon.svg') }}" />
                         <figcaption class="home__icon-heading">Foster Placement</figcaption>
                         <figcaption class="home__icon-subheading">
                             We provide Family and Treatment foster homes to males and females between the ages of birth to 21.
@@ -28,27 +28,27 @@
                     </figure>
                 </div>
 
-                <div class="column">
+                <div class="home__icon column is-half-tablet is-one-quarter-fullhd">
                     <figure class="home__icon-wrapper">
-                        <img class="home__icon" src="{{ asset('img/icons/hands-heart.svg') }}" />
+                        <img class="home__icon-img" src="{{ asset('img/icons/hands-heart.svg') }}" />
                         <figcaption class="home__icon-heading">Family &amp; Individual Therapy</figcaption>
                         <figcaption class="home__icon-subheading">
                             Our licensed clinicians provide cognitive behavioral and trauma informed care with evidence based practices.
                         </figcaption>
                     </figure>
                 </div>
-                <div class="column">
+                <div class="home__icon column is-half-tablet is-one-quarter-fullhd">
                     <figure class="home__icon-wrapper">
-                        <img class="home__icon" src="{{ asset('img/icons/house-love.svg') }}" />
+                        <img class="home__icon-img" src="{{ asset('img/icons/house-love.svg') }}" />
                         <figcaption class="home__icon-heading">Respite Care</figcaption>
                         <figcaption class="home__icon-subheading">
                             Planned &amp; emergency temporary care in one of our licensed homes for children ages birth-21.
                         </figcaption>
                     </figure>
                 </div>
-                <div class="column">
+                <div class="home__icon column is-half-tablet is-one-quarter-fullhd">
                     <figure class="home__icon-wrapper">
-                        <img class="home__icon" src="{{ asset('img/icons/chat-heart[filled].svg') }}" />
+                        <img class="home__icon-img" src="{{ asset('img/icons/chat-heart[filled].svg') }}" />
                         <figcaption class="home__icon-heading">Psychiatric Services</figcaption>
                         <figcaption class="home__icon-subheading">
                             Psychiatric evaluations, diagnosis, and treatment with 24/7 access to a licensed clinician.
@@ -64,8 +64,8 @@
             <h2 class="home__heading title is-2">Become a Foster Parent</h2>
             <div class="micro-hr"></div>
 
-            <div class="home__become columns is-vcentered">
-                <div class="column is-half">
+            <div class="home__become columns is-desktop is-vcentered">
+                <div class="column is-half-desktop">
                     <h5 class="title is-5">Pre-Service Training</h5>
                     <p class="pull-up10">
                         A required 36 hours of training is needed to obtain a 2 year-certification. We also require first aid,
@@ -80,12 +80,13 @@
                         history and previous experience working with children. Additional, our assessors will conduct an
                         interview with each family member of the household.
                     </p>
-                    <a class="is-link mt-10">
-                        <i class="fa fa-download" aria-hidden="true"></i>
-                        Download a full copy of our foster parent resource guide
-                    </a>
+                    {{-- TODO: Remove if asset not received --}}
+{{--                    <a class="is-link mt-10">--}}
+{{--                        <i class="fa fa-download" aria-hidden="true"></i>--}}
+{{--                        Download a full copy of our foster parent resource guide--}}
+{{--                    </a>--}}
                 </div>
-                <div class="column is-half">
+                <div class="column is-half-desktop">
                     <div class="home__img-wrapper">
                         <img src="{{ asset('img/holding-hands.jpg') }}" />
                         <div class="home__img-overlay">

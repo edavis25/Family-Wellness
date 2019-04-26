@@ -1,20 +1,32 @@
 .b-quote {
-  font-size: 1.75rem;
   text-align: center;
+  font-size: 1.3em;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 1.75em;
+  }
 
   cite {
     position: relative;
-    top: -0.5rem;
+    //top: -0.5rem;
     font-size: 1.25rem;
     font-style: italic;
   }
 
   &__icon {
     position: relative;
-    top: -5px;
-    margin-right: 5px;
+
+    @media screen and (min-width: $tablet) {
+      top: -5px;
+      margin-right: 5px;
+    }
+
     svg {
-      max-width: 40px;
+      max-width: 20px;
+
+      @media screen and (min-width: $tablet) {
+        max-width: 40px;
+      }
 
       text {
         fill: lighten($blue-primary, 25%) !important;
