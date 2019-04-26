@@ -3,6 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#4C8BE1" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('img/favicon.ico') }}">
 
     {{-- Styles --}}
     <link href="{{ mix('css/vendor.css') }}" rel="stylesheet">
